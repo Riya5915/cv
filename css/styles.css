@@ -18,10 +18,6 @@ h3{
     color: #11999E;
 }
 
-a {
-    color: #11999E;
-}
-
 body {
     margin: 0;
     color: #40514e;
@@ -40,6 +36,23 @@ hr {
     margin: 50px auto;
 }
 
+.footer-link {
+    color: #4db2b6;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 20px;
+}
+
+.footer-link:hover {
+    color: #e2d6d6;
+}
+
+.copywrite {
+    color: #6c9e9e;
+    font-size: 0.75em;
+    padding: 20px auto;
+}
+
 .top-container {
     background-color: #e4f9f5;
     position: relative;
@@ -48,6 +61,11 @@ hr {
 
 .middle-container {
     margin: 80px auto;
+}
+
+.bottom-container {
+    background-color: #b0eee3;
+    padding: 50px 0 20px;
 }
 
 .skill-row {
@@ -69,7 +87,7 @@ hr {
 }
 
 .intro {
-    width: 30%;
+    width: 40%;
     margin: auto;
     margin-bottom: 10px;
 }
@@ -103,3 +121,26 @@ hr {
     right: 300px;
     top: 50px;
 }
+
+.contact-message {
+    width: 60%;
+    margin: 30px auto 60px;
+}
+
+.btn {
+    background: #7cbfeb;
+    background-image: -webkit-linear-gradient(top, #7cbfeb, #4399cf);
+    background-image: -moz-linear-gradient(top, #7cbfeb, #4399cf);
+    background-image: -ms-linear-gradient(top, #7cbfeb, #4399cf);
+    background-image: -o-linear-gradient(top, #7cbfeb, #4399cf);
+    background-image: linear-gradient(to bottom, #7cbfeb, #4399cf);
+    -webkit-border-radius: 35;
+    -moz-border-radius: 35;
+    border-radius: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
